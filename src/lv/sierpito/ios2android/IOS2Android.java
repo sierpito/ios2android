@@ -57,6 +57,7 @@ public class IOS2Android {
             }
         }
         fileScanner.close();
+        writer.append("</resources>");
         writer.close();
     }
 
